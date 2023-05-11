@@ -25,15 +25,15 @@ namespace RoboContaTelefonica.Pipes.Vivo
 
 
             //login
-            driver.FindElement(By.XPath("//*[@id=\"login-input\"]")).SendKeys("aroldo@transmartins.com.br");
+            driver.FindElement(By.XPath("//*[@id=\"login-input\"]")).SendKeys("");
             Thread.Sleep(1000);
             driver.FindElement(By.XPath("//*[@id=\"form-login\"]/div[4]/button")).Click();
             Thread.Sleep(3000);
-            driver.FindElement(By.XPath("//*[@id=\"input-document-id\"]")).SendKeys("653.389.876-00");
+            driver.FindElement(By.XPath("//*[@id=\"input-document-id\"]")).SendKeys("");
             Thread.Sleep(1000);
             driver.FindElement(By.XPath("//*[@id=\"form-document-id\"]/div[3]/button")).Click();  
             Thread.Sleep(3000);
-            driver.FindElement(By.XPath("//*[@id=\"form-login\"]/div[2]/div/div/input")).SendKeys("vivoETM2023");
+            driver.FindElement(By.XPath("//*[@id=\"form-login\"]/div[2]/div/div/input")).SendKeys("");
             Thread.Sleep(1000);
             driver.FindElement(By.XPath("//*[@id=\"form-login\"]/div[4]/button")).Click();
 
